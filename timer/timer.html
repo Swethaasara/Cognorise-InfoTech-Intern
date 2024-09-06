@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>COUNTDOWN TIMER</title>
+    <link rel="stylesheet" href="timer1.css">
+    
+</head>
+<body>
+   <div class="background"></div>
+<div>
+   
+<h1> Countdown Timer</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Enter Date</th>
+            <th>Enter Time</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><input type="date" id="date"></td>
+            <td> <input type="time" id="time"></td>
+        </tr>
+    </tbody>
+</table>
+<button id="calculate"><b>Calculate</b></button>
+<button id="stop"><b>Stop</b></button>
+<button id="reset"><b>Reset</b></button>
+<div class="countdown">
+
+
+<div>
+<p class="heading"><b>DAY</b></p>
+<div class="time" id="countdown-days">0</div>
+</div>
+
+<div>
+    <p class="heading"><b>HOURS</b></p>
+    <div class="time" id="countdown-hours">0</div>
+    </div>
+
+    <div>
+        <p class="heading"><b>MINUTES</b></p>
+        <div class="time"id="countdown-minutes">0</div>
+        </div>
+
+        <div>
+            <p class="heading"><b>SECONDS</b></p>
+            <div class="time" id="countdown-seconds">0</div>
+            </div>
+            
+  </div>      
+</div>
+
+    <script src="timer.js"></script>
+</body>
+</html>
